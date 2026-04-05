@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS: Фундамент веброзробки</title>
+    <link rel="stylesheet" href="styles/custom.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="blobs">
+      <div class="blob b1"></div>
+      <div class="blob b2"></div>
+      <div class="blob b3"></div>
+    </div>
+
+    <div class="particles" id="particles"></div>
+
+    <nav>
+      <div class="logo">HTML &amp; CSS</div>
+      <ul class="nav-links">
+        <li><a href="#">Теорія</a></li>
+        <li><a href="#">Практика</a></li>
+        <li><a href="#">Тести</a></li>
+        <li><a href="#">Ресурси</a></li>
+      </ul>
+    </nav>
+
+    <main class="hero">
+      <div class="hero-content">
+        <h1 id="main-title">
+          HTML та CSS:
+          <br />
+          <span class="gradient-text" id="typed-text"></span>
+        </h1>
+        <p class="subtitle">Інтерактивний урок для майбутніх творців інтернету</p>
+
+        <div class="info-grid">
+          <div class="info-card" id="card1">
+            <span class="icon">🎓</span>
+            <h3>Цільова аудиторія</h3>
+            <p>Учні 10 класу</p>
+          </div>
+          <div class="info-card" id="card2">
+            <span class="icon">✍️</span>
+            <h3>Автор уроку</h3>
+            <p>Шабелян Сніжана</p>
+          </div>
+        </div>
+
+        <div class="cta-buttons">
+          <a href="#navigation" class="btn primary" id="startBtn">
+            <span>🚀 Почати навчання</span>
+          </a>
+          <a href="https://github.com/" class="btn secondary">📦 Репозиторій</a>
+        </div>
+      </div>
+
+      <div class="scroll-indicator">
+        <span>Гортай вниз</span>
+        <div class="scroll-dot"></div>
+      </div>
+    </main>
+
+    <div class="section-divider">
+      <div class="divider-line"><span class="divider-text">Структура курсу</span></div>
+    </div>
+
+    <section id="navigation" class="files-explorer">
+      <h2>📚 Матеріали уроку</h2>
+      <p class="section-sub">Оберіть розділ для вивчення</p>
+      <div class="explorer-grid" id="explorerGrid">
+        <a href="#" class="file-item">
+          <span class="fi-icon">📖</span>
+          <div class="fi-label">
+            <strong>Теорія</strong>
+            <small>Основи HTML та CSS</small>
+          </div>
+        </a>
+        <a href="#" class="file-item">
+          <span class="fi-icon">💡</span>
+          <div class="fi-label">
+            <strong>Приклади коду</strong>
+            <small>Готові рішення</small>
+          </div>
+        </a>
+        <a href="#" class="file-item">
+          <span class="fi-icon">✏️</span>
+          <div class="fi-label">
+            <strong>Завдання</strong>
+            <small>Практика</small>
+          </div>
+        </a>
+        <a href="#" class="file-item">
+          <span class="fi-icon">🔬</span>
+          <div class="fi-label">
+            <strong>Лабораторні</strong>
+            <small>Дослідження</small>
+          </div>
+        </a>
+        <a href="#" class="file-item">
+          <span class="fi-icon">✅</span>
+          <div class="fi-label">
+            <strong>Самоперевірка</strong>
+            <small>Тести</small>
+          </div>
+        </a>
+        <a href="#" class="file-item">
+          <span class="fi-icon">🔗</span>
+          <div class="fi-label">
+            <strong>Корисні посилання</strong>
+            <small>Ресурси</small>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <script src="scripts/interactive.js"></script>
+  </body>
+</html>
